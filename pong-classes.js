@@ -20,7 +20,7 @@ export class Game {
     this.htmlElement = null; //element on HTML page
     this.mousePosition = { x: 0, y: 0 };
     this.mute = false; //default mute state
-    this.volume = 6; //default volume output 0-10
+    this.volume = 5; //default volume output 0-10
     this.computerState = 0; //default computer control amount
     this.computerDifficulty = ["off", "easy", "medium", "hard", "impossible"]; //sets the computer difficulty names
     this.computerDifficultySpeed = [0, 2, 4, 8, 100]; //sets the computer difficulty speeds
@@ -38,7 +38,7 @@ export class Ball {
     intertialTransfer,
     htmlElement
   ) {
-    this.size = { x: 20, y: 20 }; // default ball size
+    this.size = { x: 25, y: 25 }; // default ball size
     this.position = { x: 50, y: 50 }; // default ball position
     this.direction = { x: 1, y: 0 }; //Ball speed when game starts
     this.acceleration = 0; //X speed multipler on successful block
