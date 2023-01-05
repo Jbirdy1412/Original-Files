@@ -14,6 +14,8 @@ export class Game {
     computerstate,
     computerDifficulty,
     computerDifficultySpeed
+     background-image: url("https://media.giphy.com/media/3oEdv1GbekAakxXO8g/giphy.gif");
+     background-size: cover;
      
   ) {
     this.size = { x: 600, y: 500 }; //container for entire game
