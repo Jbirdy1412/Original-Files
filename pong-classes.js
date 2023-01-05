@@ -14,6 +14,7 @@ export class Game {
     computerstate,
     computerDifficulty,
     computerDifficultySpeed
+     background-image: url("C:\Users\janel\Downloads\bg1.gif"); background-size: cover;
   ) {
     this.size = { x: 600, y: 500 }; //container for entire game
     this.padding = { x: 10, y: 10 }; //white space inside game border
