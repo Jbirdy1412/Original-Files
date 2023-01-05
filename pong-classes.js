@@ -14,7 +14,7 @@ export class Game {
     computerstate,
     computerDifficulty,
     computerDifficultySpeed
-     background-image: url("C:\Users\janel\Downloads\pexels-rostislav-uzunov-7385122.mp4"); background-size: cover;
+     
   ) {
     this.size = { x: 600, y: 500 }; //container for entire game
     this.padding = { x: 10, y: 10 }; //white space inside game border
